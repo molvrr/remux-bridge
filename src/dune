@@ -1,0 +1,20 @@
+(include_subdirs qualified)
+
+(library
+ (name bridge)
+ (libraries
+  eio
+  eio.unix
+  tls
+  tls-eio
+  ca-certs
+  x509
+  cohttp-eio
+  http
+  uri
+  domain-name
+  ipaddr
+  mirage-crypto-rng.unix
+  yojson
+  digestif
+  base64))

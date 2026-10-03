@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (public_name bridge)
+ (libraries bridge eio_main mirage-crypto-rng.unix))
